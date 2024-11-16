@@ -1,4 +1,4 @@
-resource "aws_security_group" "ec2_sg" {
+resource "aws_security_group" "ec2_terra-sg" {
   name        = "ec2_security_group"
   description = "Allow SSH and HTTP"
     vpc_id      = data.aws_vpc.vpc.id
